@@ -20,6 +20,22 @@ img {
     height: 100%;
 }
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
 .financingImg{
     width: 50% !important;
     float: right;
@@ -55,6 +71,7 @@ ul {
 
 .style2 {
     line-height: 1.875em;
+    text-align: justify;
 }
 
 .decimal {
@@ -105,12 +122,6 @@ oblique {
     padding-top: 1px;
 }
 
-.bottomDiv {
-    float: left;
-    width: 100%;
-    padding-top: 95px;
-    padding-bottom: 95px;
-}
 
 .textBody {
     width: 50%;
@@ -123,6 +134,8 @@ oblique {
     float: left;
     width: 100%;
     background: #f7f7f7;
+    padding-top: 95px;
+    padding-bottom: 95px;
 }
 
 .footer {
@@ -156,14 +169,39 @@ oblique {
 
 h1{
     font-size: 72px;
+    text-align: center;
+}
+
+.height1{
+    height: 240px;
+}
+
+.padding1{
+    padding-top: 55px !important;
 }
 
 .fam {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.center{
+    text-align: center;
+}
+
+.style3{
+    width: 100% !important;
+    height: 250px;
+}
+
 h2{
     font-weight: normal;
+}
+
+.fontSize1{
+    font-size: 40px !important;
+}
+.fontSize2{
+    font-size: 19px !important;
 }
 
 .auction {
