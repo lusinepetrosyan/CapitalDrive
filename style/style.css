@@ -29,7 +29,7 @@ table {
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
-    padding: 8px;
+    /*padding: 8px;*/
 }
 
 tr:nth-child(even) {
@@ -46,6 +46,12 @@ tr:nth-child(even) {
     float: left;
     width: 50%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center1{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,7 +132,7 @@ oblique {
 .textBody {
     width: 50%;
     margin: 0 auto;
-    padding: 20px;
+    /*padding: 20px;*/
     background: white;
 }
 
@@ -142,7 +148,7 @@ oblique {
     float: left;
     width: 100%;
     background: white;
-    padding: 2px;
+    /*padding: 2px;*/
 }
 
 .text1 {
@@ -180,6 +186,14 @@ h1{
     padding-top: 55px !important;
 }
 
+.padding2{
+    padding-top: 0 !important;
+}
+
+.top{
+    margin-top: 30px;
+}
+
 .fam {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -200,6 +214,11 @@ h2{
 .fontSize1{
     font-size: 40px !important;
 }
+
+.socialPng{
+    width: 30px;
+    height: 30px;
+}
 .fontSize2{
     font-size: 19px !important;
 }
@@ -208,7 +227,7 @@ h2{
     margin: 0 auto;
     text-align: center;
     width: 50%;
-    padding: 2px;
+    /*padding: 2px;*/
     display: block;
     margin-top: 130px;
     margin-bottom: 130px;
@@ -218,19 +237,19 @@ h2{
     float: left;
     width: 100%;
     background: white;
-    padding: 2px;
+    /*padding: 2px;*/
 }
 
 .upperFooter {
     float: left;
     width: 100%;
-    padding: 2px;
+    /*padding: 2px;*/
 }
 
 .downFooter {
     float: left;
     width: 100%;
-    padding: 2px;
+    /*padding: 2px;*/
     background: #f7f7f7;
 }
 
@@ -238,7 +257,7 @@ h2{
     margin: 0 auto;
     width: 50%;
     text-align: center;
-    padding: 2px;
+    /*padding: 2px;*/
     display: block;
     margin-top: 30px;
     margin-bottom: 30px;
